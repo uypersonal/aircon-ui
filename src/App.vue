@@ -78,7 +78,7 @@ export default {
     Capitalise(mode_word){return mode_word[0].toUpperCase()+mode_word.slice(1)}
   },
 created(){
-  // this.get_temprature_list();
+  this.get_temprature_list();
 }
 }
 </script>
